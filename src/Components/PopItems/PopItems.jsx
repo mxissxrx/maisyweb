@@ -28,7 +28,7 @@ const PopItems = () => {
                   md:w-[200px] md:h-[200px] 
                   lg:w-[220px] lg:h-[220px]
                   object-contain rounded-xl 
-                  cursor-pointer bg-[#f9f9f9] 
+                  cursor-pointer shadow-md
                   hover:scale-105 transition-all duration-300"
               />
             </a>
