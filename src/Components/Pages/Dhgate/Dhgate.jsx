@@ -1,15 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { data } from "../Dhgate/dhgateItems";
 import "./Dhgate.css";
 
 const Dhgate = () => {
-
   const itemsPerPage = 48;
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedBrand, setSelectedBrand] = useState("All");
   const [currency, setCurrency] = useState("CAD");
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
+
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [currentPage, searchTerm]);
 
   const conversionRates = {
     CAD: 1,
@@ -27,22 +31,16 @@ const Dhgate = () => {
   const brands = ["All", ...new Set(data.map((item) => item.brand))];
 
   const filteredData = data.filter((item) => {
-  const categoryMatch =
-    selectedCategory === "All" || item.category === selectedCategory;
-  const brandMatch = selectedBrand === "All" || item.brand === selectedBrand;
-  const searchMatch = item.alt
-    .toLowerCase()
-    .includes(searchTerm.toLowerCase());
-  return categoryMatch && brandMatch && searchMatch;
-});
-
+    const categoryMatch =
+      selectedCategory === "All" || item.category === selectedCategory;
+    const brandMatch = selectedBrand === "All" || item.brand === selectedBrand;
+    const searchMatch = item.alt.toLowerCase().includes(searchTerm.toLowerCase());
+    return categoryMatch && brandMatch && searchMatch;
+  });
 
   const totalPages = Math.ceil(filteredData.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
-  const currentItems = filteredData.slice(
-    startIndex,
-    startIndex + itemsPerPage
-  );
+  const currentItems = filteredData.slice(startIndex, startIndex + itemsPerPage);
 
   const handleFilterChange = (type, value) => {
     if (type === "category") setSelectedCategory(value);
@@ -60,49 +58,33 @@ const Dhgate = () => {
         <aside className="lg:w-1/5 w-full">
           <h3 className="text-lg font-semibold mb-4">Search</h3>
 
-  <input
-    type="text"
-    placeholder="Search items..."
-    value={searchTerm}
-    onChange={(e) => {
-      setSearchTerm(e.target.value);
-      setCurrentPage(1);
-    }}
-    className="w-full mb-6 px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-200"
-  />
+          <input
+            type="text"
+            placeholder="Search items..."
+            value={searchTerm}
+            onChange={(e) => {
+              setSearchTerm(e.target.value);
+              setCurrentPage(1); 
+            }}
+            className="w-full mb-6 px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-300"
+          />
 
-  <h4 className="text-md font-semibold mb-2">Filter by Brand</h4>
-  <div
-    className="
-      flex
-      lg:flex-col
-      flex-row
-      gap-2
-      lg:gap-3
-      overflow-x-auto
-      lg:overflow-y-auto
-      max-h-[70vh]
-      scrollbar-thin
-      scrollbar-thumb-gray-300
-      scrollbar-track-transparent
-      pb-2
-      pr-2
-    "
-  >
-    {brands.map((brand) => (
-      <button
-        key={brand}
-        onClick={() => handleFilterChange('brand', brand)}
-        className={`flex-shrink-0 px-3 py-2 rounded-full text-sm transition ${
-          selectedBrand === brand
-            ? 'bg-[#FCE9FC] text-black font-medium'
-            : 'bg-gray-100 text-black hover:bg-gray-200'
-        }`}
-      >
-        {brand}
-      </button>
-    ))}
-  </div>
+          <h4 className="text-md font-semibold mb-2">Filter by Brand</h4>
+          <div className="flex lg:flex-col flex-row gap-2 lg:gap-3 overflow-x-auto lg:overflow-y-auto max-h-[70vh] scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent pb-2 pr-2">
+            {brands.map((brand) => (
+              <button
+                key={brand}
+                onClick={() => handleFilterChange("brand", brand)}
+                className={`flex-shrink-0 px-3 py-2 rounded-full text-sm transition ${
+                  selectedBrand === brand
+                    ? "bg-[#FCE9FC] text-black font-medium"
+                    : "bg-gray-100 text-black hover:bg-gray-200"
+                }`}
+              >
+                {brand}
+              </button>
+            ))}
+          </div>
         </aside>
 
         <div className="flex-1">
@@ -136,7 +118,6 @@ const Dhgate = () => {
             </div>
           </div>
 
-
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
             {currentItems.map((item) => (
               <a
@@ -159,8 +140,7 @@ const Dhgate = () => {
                   </h3>
                   <p className="text-gray-700 mt-1">
                     {currencySymbols[currency]}
-                    {(item.price * conversionRates[currency]).toFixed(2)}{" "}
-                    {currency}
+                    {(item.price * conversionRates[currency]).toFixed(2)} {currency}
                   </p>
                 </div>
               </a>
@@ -217,4 +197,5 @@ const Dhgate = () => {
 };
 
 export default Dhgate;
+
 

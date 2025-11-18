@@ -18,16 +18,13 @@ const Amazon = () => {
   const reversedData = [...data].sort((a, b) => b.id - a.id);
 
   const categories = ["All", ...new Set(reversedData.map((item) => item.category))];
-
   const styles = ["All", ...new Set(reversedData.flatMap((item) => item.style))];
 
   const filteredData = reversedData.filter((item) => {
     const categoryMatch =
       selectedCategory === "All" || item.category === selectedCategory;
-
     const styleMatch =
       selectedStyle === "All" || item.style.includes(selectedStyle);
-
     return categoryMatch && styleMatch;
   });
 
@@ -39,6 +36,12 @@ const Amazon = () => {
   const handleNextPage = () =>
     setCurrentPage((prev) => Math.min(prev + 1, totalPages));
 
+  // Scroll to top only when page changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [currentPage]);
+
+  // Keep previous effect to reset page on filter change
   useEffect(() => {
     setCurrentPage(1);
   }, [selectedCategory, selectedStyle]);
@@ -82,23 +85,7 @@ const Amazon = () => {
       <div className="flex flex-col lg:flex-row max-w-6xl mx-auto gap-8">
         <aside className="lg:w-1/5 w-full mb-8 lg:mb-0">
           <h3 className="text-lg font-semibold mb-3">Filter by Style</h3>
-          <div
-            className="
-              flex
-              lg:flex-col
-              flex-row
-              gap-2
-              lg:gap-3
-              overflow-x-auto
-              lg:overflow-y-auto
-              max-h-[70vh]
-              scrollbar-thin
-              scrollbar-thumb-gray-300
-              scrollbar-track-transparent
-              pb-2
-              pr-2
-            "
-          >
+          <div className="flex lg:flex-col flex-row gap-2 lg:gap-3 overflow-x-auto lg:overflow-y-auto max-h-[70vh] scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent pb-2 pr-2">
             {styles.map((style) => (
               <button
                 key={style}
@@ -138,7 +125,6 @@ const Amazon = () => {
 
       {totalPages > 1 && (
         <div className="flex justify-center items-center gap-4 mt-10">
-
           <button
             onClick={handlePrevPage}
             disabled={currentPage === 1}
@@ -183,6 +169,8 @@ const Amazon = () => {
 };
 
 export default Amazon;
+
+
 
 
 

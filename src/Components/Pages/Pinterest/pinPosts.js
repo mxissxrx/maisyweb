@@ -1456,6 +1456,242 @@ export const data = [
         ],
       }, 
     ],
-  }
-
+  },
+  {
+    id: 51,
+    mainImage: "https://i.pinimg.com/736x/bc/94/c4/bc94c45f832d62a0e807dc8c3632c32d.jpg",
+    alt: "IG: daarealldopegirl",
+    items: [
+      {
+        name: "Set",
+        image: "https://www.aelfriceden.com/cdn/shop/files/20_ea221ab9-cdd4-49d1-b12b-a8e94e595f62.jpg?v=1763353708&width=600",
+        link: "https://www.aelfriceden.com/collections/cloud-classic/products/aelfric-eden-essential-pullover-hoodie-sets-5?variant=45763721003170"
+      },
+      {
+        name: "Slides",
+        image: "https://cdn-images.farfetch-contents.com/20/36/22/05/20362205_50803613_1000.jpg",
+        link: "https://www.farfetch.com/ca/shopping/men/adidas-yeezy-yeezy-azure-slides-item-20362205.aspx",
+      },
+      {
+        name: "Slides",
+        image: "https://cdn-images.farfetch-contents.com/20/36/22/05/20362205_50803613_1000.jpg",
+        link: "https://sale.dhgate.com/qhRgz685",
+        regions: [
+          { flag: "Dhgate Version", link: "https://sale.dhgate.com/qhRgz685" },
+        ],
+      },
+    ],
+  },{
+    id: 52,
+    mainImage: "https://i.pinimg.com/736x/23/27/4c/23274c016af04d75fa8adddded03efdd.jpg",
+    alt: "IG: drealdelaney",
+    items: [
+      {
+        name: "Dress",
+        image: "https://static.zara.net/assets/public/7774/52ab/af824f0db3bf/59aec93e4f57/04661236922-e1/04661236922-e1.jpg?ts=1762872694712&w=750",
+        link: "https://www.zara.com/us/en/short-dress-with-shoulder-pads-and-ruffles-p08927509.html?v1=494272080"
+      },
+      {
+        name: "Boots",
+        image: "https://m.media-amazon.com/images/I/71dwX7j9fVL._AC_SY575_.jpg",
+        link: "",
+        regions: [
+          { flag: "CA", link: "https://amzn.to/4nYZWOQ" },
+          { flag: "US", link: "https://amzn.to/3LHYCTj" },
+        ],
+      },
+    ],
+  },{
+    id: 53,
+    mainImage: "https://i.pinimg.com/736x/1d/46/c4/1d46c4d18bf745d682f63f9e81eabee9.jpg",
+    alt: "IG: lloveelleee",
+    items: [
+      {
+        name: "Flannel",
+        image: "https://i.pinimg.com/736x/29/96/e3/2996e322c45384104f082928ef919cf1.jpg",
+        link: "https://www.instagram.com/valelives/"
+      },
+      {
+        name: "Jeans",
+        image: "https://cdn.shopify.com/s/files/1/0293/9277/files/11-06-25_S2_10_P0888CV108JT_VintageWash_ZSR_KP_DR_10-00-52_9255_PXF.jpg?v=1762893872&width=800&height=1200&crop=center",
+        link: "https://www.fashionnova.com/products/talk-to-the-hand-low-rise-90s-jeans-vintage-wash",
+      },
+      {
+        name: "Bag",
+        image: "https://coach.scene7.com/is/image/Coach/cw727_imblk_a0?$desktopProduct$",
+        link: "https://www.coachoutlet.com/products/cosmetic-case/CW727.html?frp=CW727+IMBLK",
+      },
+      {
+        name: "Shoes",
+        image: "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/103/215/963/original/1295302_08.jpg.jpeg?action=crop&width=1000",
+        link: "https://www.goat.com/en-ca/sneakers/maison-mihara-yasuhiro-peterson-23-og-sole-canvas-low-green-a11fw702-grn",
+      },
+      {
+        name: "Shoes",
+        image: "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/103/215/963/original/1295302_08.jpg.jpeg?action=crop&width=1000",
+        link: "https://sale.dhgate.com/KVhijR23",
+        regions: [
+          { flag: "Dhgate Version", link: "https://sale.dhgate.com/KVhijR23" },
+        ],
+      },
+    ],
+  },{
+    id: 54,
+    mainImage: "https://i.pinimg.com/736x/87/d0/da/87d0da04852730400197df07edadd778.jpg",
+    alt: "IG: montaiselene",
+    items: [
+      {
+        name: "Top",
+        image: "https://cdn-images.farfetch-contents.com/32/83/77/49/32837749_63082147_1000.jpg",
+        link: "https://www.farfetch.com/ca/shopping/women/diesel-t-angie-t-shirt-item-32837749.aspx"
+      },
+      {
+        name: "Jeans",
+        image: "https://basket-15.wbcontent.net/vol2286/part228620/228620691/images/big/1.webp",
+        link: "https://us.evisu.com/collections/jeans",
+      },
+      {
+        name: "Shoes",
+        image: "https://cdn-images.farfetch-contents.com/16/24/65/24/16246524_31103582_1000.jpg",
+        link: "https://www.farfetch.com/ca/shopping/men/lanvin-curb-suede-trim-sneakers-item-16246524.aspx",
+      },
+      {
+        name: "Shoes",
+        image: "https://cdn-images.farfetch-contents.com/16/24/65/24/16246524_31103582_1000.jpg",
+        link: "https://sale.dhgate.com/LlUvpE84",
+        regions: [
+          { flag: "Dhgate Version", link: "https://sale.dhgate.com/LlUvpE84" },
+        ],
+      },
+    ],
+  },{
+    id: 55,
+    mainImage: "https://i.pinimg.com/736x/46/a3/e4/46a3e4cbf5af57166978b5a7009af70c.jpg",
+    alt: "IG: lilmaisa",
+    items: [
+      {
+        name: "Top",
+        image: "https://blureign.co.uk/cdn/shop/files/D48CE161-7C67-47EA-84BD-E54335D2C8C6.jpg?v=1733305261&width=900",
+        link: "https://blureign.co.uk/products/black-wet-look-panel-trousers-1?pr_prod_strat=jac&pr_rec_id=e5f56dcd8&pr_rec_pid=14858903060854&pr_ref_pid=14858754720118&pr_seq=uniform"
+      },
+      {
+        name: "Pants",
+        image: "https://blureign.co.uk/cdn/shop/files/879A6738-7BA5-4DA2-8C07-925850FE1188.jpg?v=1733305806&width=900",
+        link: "https://blureign.co.uk/collections/trousers-leggings/products/black-wet-look-panel-trousers",
+      },
+      {
+        name: "Heels",
+        image: "https://cdn.shopify.com/s/files/1/0293/9277/files/01-17-25_S10_34_ROSSIE56_Black_CXB_11-53-30_16156_PXF.jpg?v=1739917659&width=800&height=1200&crop=center",
+        link: "https://www.fashionnova.com/products/blue-thong-mules-black?variant=39288623300732&currency=CAD&utm_source=google&utm_medium=cpc&utm_id=21489984370&utm_campaign=CAN_NB_SHOPPING_W_ALL&glid=Cj0KCQiAiebIBhDmARIsAE8PGNJ5B4Cy1_9ukH9QY6ARt0kuVvG25aGP17ixDP3aZ5pjNBu4pWrnL08aAqxuEALw_wcB&gad_source=1&gad_campaignid=21489984370&gbraid=0AAAAADmA10QP38aWgpNlwv5sNJ_64Vx3W&gclid=Cj0KCQiAiebIBhDmARIsAE8PGNJ5B4Cy1_9ukH9QY6ARt0kuVvG25aGP17ixDP3aZ5pjNBu4pWrnL08aAqxuEALw_wcB",
+      },
+    ],
+  },{
+    id: 56,
+    mainImage: "https://i.pinimg.com/736x/8e/36/79/8e36792a65efb3d989cedb57cb2fbe00.jpg",
+    alt: "IG: riaalonso",
+    items: [
+      {
+        name: "Top",
+        image: "https://avintagefit.com/cdn/shop/files/72DC4A64-5E4A-4EB7-A3DB-2812DE5DE425_56d7aee7-1776-4d61-8a3e-1f968be8a09b.heic?v=1748439120&width=800",
+        link: "https://avintagefit.com/products/leopard-corset-top"
+      },
+      {
+        name: "Bottom",
+        image: "https://avintagefit.com/cdn/shop/files/358A0C64-BF53-4BEA-9A51-CBF15848B4E0.heic?v=1748436542&width=1000",
+        link: "https://avintagefit.com/products/leopard-capri",
+      },
+    ],
+  },{
+    id: 57,
+    mainImage: "https://i.pinimg.com/736x/6a/2d/72/6a2d72b840910a22b9f5105cf8fb13d8.jpg",
+    alt: "IG: georgiajobson",
+    items: [
+      {
+        name: "Top",
+        image: "https://avintagefit.com/cdn/shop/files/849AA08B-1B07-4501-9A8F-D5AF203D3E66.heic?v=1761828417&width=1000",
+        link: "https://avintagefit.com/products/leather-fur-zip-up-bronze"
+      },
+      {
+        name: "Skirt",
+        image: "https://avintagefit.com/cdn/shop/files/3D02679C-5280-44A6-BAFC-F5180B641533.heic?v=1761828273&width=1000",
+        link: "https://avintagefit.com/products/leather-fur-skirt-bronze",
+      },
+      {
+        name: "Heels",
+        image: "https://cdn-images.farfetch-contents.com/15/80/37/33/15803733_29387965_1000.jpg",
+        link: "https://www.farfetch.com/ca/shopping/women/rene-caovilla-cleo-high-heel-sandals-item-15803733.aspx",
+      },
+      {
+        name: "Heels",
+        image: "https://cdn-images.farfetch-contents.com/15/80/37/33/15803733_29387965_1000.jpg",
+        link: "https://sale.dhgate.com/WKpFGh68",
+        regions: [
+          { flag: "Dhgate Version", link: "https://sale.dhgate.com/WKpFGh68" },
+        ],
+      },
+    ],
+  },{
+    id: 58,
+    mainImage: "https://i.pinimg.com/736x/51/bf/3c/51bf3ce6bf265633ecf7e999f19b8dc9.jpg",
+    alt: "IG: hanamymood",
+    items: [
+      {
+        name: "Dress",
+        image: "https://is4.fwrdassets.com/images/p/fw/z/TFOF-WD54_V1.jpg",
+        link: "https://www.fwrd.com/product-tom-ford-cocktail-mini-dress-in-purple-dalhia/TFOF-WD54/?cjdata=MXxOfDB8WXww&d=Womens&AID=12150991&PID=100010600&utm_medium=affiliate&utm_source=cj&source=cj&utm_campaign=glob_p_5001908&cjevent=23517407c37f11f0828e03610a82b821"
+      },
+      {
+        name: "Shoes",
+        image: "https://irvrsbl.com/cdn/shop/products/3_fe1a9792-8fd2-4e3e-b123-f8d5dbd5ca64.jpg?v=1600841076",
+        link: "https://irvrsbl.com/en-ca/products/iconic-spring-2003-heels?srsltid=AfmBOoqnnXvKgXbY_OMnAXJZyzgew6ynSPc5Xg9YldU46r-Dl8PFYEFb",
+      },
+      {
+        name: "Bag",
+        image: "https://www.bagreligion.com/cdn/shop/files/Image_20240424002220-Photoroom_1000x.jpg?v=1713902770",
+        link: "https://theluxurycloset.com/us-en/women/dior-aqua-blue-cannage-patent-leather-mini-chain-lady-dior-tote-p480412?srsltid=AfmBOop4bbC5iBiq0OSdjFqQ2BxtHWzawaLYyQqztBtBduaY5wA5sGBf",
+      },
+    ],
+  },{
+    id: 59,
+    mainImage: "https://i.pinimg.com/736x/73/a0/5a/73a05ad41de5696b18c3fe568e57d48e.jpg",
+    alt: "IG: jennifermendes",
+    items: [
+      {
+        name: "Top",
+        image: "https://avintagefit.com/cdn/shop/files/AVFCAMPAIGNupdate_15_Large_333d2dcd-68df-489c-a5f7-4d7acb618dfa.jpg?v=1725812195&width=800",
+        link: "https://avintagefit.com/products/leather-zip-top"
+      },
+      {
+        name: "Jeans",
+        image: "https://images.garmentory.com/images/6934533/xl/DIESEL-Jeans-with-boots-Men-Size-26-EU-20220402015153.jpg?1648864322",
+        link: "https://www.garmentory.com/sale/diesel/denim-high-waisted/1459493-diesel-jeans-with-boots-men-size-26-eu",
+      },
+    ],
+  },{
+    id: 60,
+    mainImage: "https://i.pinimg.com/736x/3c/e3/6a/3ce36a2332d7cb8ba515dbab328842e6.jpg",
+    alt: "IG: justnxa",
+    items: [
+      {
+        name: "Top",
+        image: "https://cdn.shopify.com/s/files/1/0130/3137/4906/products/GIA14158_NYKKO_JACKET_DENIM_GM_FRONT_1969c65d-50ed-4e94-a27f-729cb219c156.jpg?v=1750822351",
+        link: "https://iamgia.com/products/nykko-jacket-blue-june?collection=denim"
+      },
+      {
+        name: "Skirt",
+        image: "https://cdn.shopify.com/s/files/1/0130/3137/4906/files/GIA14154_NYKKO_SKORT_DENIM_GM_FRONT.jpg?v=1748559483",
+        link: "https://iamgia.com/products/nykko-skort-blue-denim-blue?collection=skirts-and-shorts",
+      },
+      {
+        name: "Shoes",
+        image: "https://editorialist.com/thumbnails/600/2023/2/023/636/177/23636177~f0009%20white_1.webp",
+        link: "https://editorialist.com/p/miu-stretch-nappa-leather-thong-boots/",
+      },
+      {
+        name: "Bags",
+        image: "https://bottega-veneta.dam.kering.com/m/1261504313b2a1/Large-651876VCPP59143_A.jpg?v=9",
+        link: "https://www.bottegaveneta.com/en-ca/mini-jodie-chalk-809647343.html?utm_source=google&utm_source_platform=SA360&utm_medium=cpc&utm_campaign=CA%7CEN%7CPMX%7CAll%7CBAU%7CU%7C&utm_id=20450137669&gclsrc=aw.ds&gad_source=1&gad_campaignid=20445607418&gbraid=0AAAAADzcwEoRNseByMFJVwLzqPfzZTGV7&gclid=Cj0KCQiAiebIBhDmARIsAE8PGNKPlxLXcnQDzDq3nTb9Tltl92jHQO1CUEqpQc1GXmngXAEODmH4nO4aAjvbEALw_wcB",
+      },
+    ],
+  },
 ];

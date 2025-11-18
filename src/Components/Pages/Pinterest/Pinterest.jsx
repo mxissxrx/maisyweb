@@ -1,22 +1,44 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { data } from "./pinPosts";
 import "./Pinterest.css";
 
 const Pinterest = () => {
   const [currentPage, setCurrentPage] = useState(1);
+  const [searchTerm, setSearchTerm] = useState("");
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [currentPage]);
 
   const reversedData = [...data].sort((a, b) => b.id - a.id);
 
+  const filteredData = reversedData.filter((post) =>
+    post.alt.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   const ITEMS_PER_PAGE = 10;
-  const totalPages = Math.ceil(reversedData.length / ITEMS_PER_PAGE);
+  const totalPages = Math.ceil(filteredData.length / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const currentPosts = reversedData.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  const currentPosts = filteredData.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
   return (
     <section className="bg-white py-16 px-4">
-      <h2 className="my-text text-3xl text-center mb-10">
+      <h2 className="my-text text-3xl text-center mb-4">
         PINTEREST POSTS
       </h2>
+
+      <div className="flex justify-center mb-10">
+        <input
+          type="text"
+          placeholder="Search by creator..."
+          value={searchTerm}
+          onChange={(e) => {
+            setSearchTerm(e.target.value);
+            setCurrentPage(1);
+          }}
+          className="border border-gray-300 rounded-lg px-4 py-2 w-full max-w-md focus:outline-none focus:ring-2 focus:ring-pink-300"
+        />
+      </div>
 
       <div className="flex flex-col gap-12 max-w-6xl mx-auto">
         {currentPosts.map((post) => (
@@ -78,56 +100,58 @@ const Pinterest = () => {
             </div>
           </div>
         ))}
-      </div>
 
-      {totalPages > 1 && (
-        <div className="flex justify-center items-center gap-4 mt-10">
-          <button
-            onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
-            disabled={currentPage === 1}
-            className={`px-4 py-2 rounded-full ${
-              currentPage === 1
-                ? "text-gray-400"
-                : "hover:bg-pink-100 text-black"
-            }`}
-          >
-            &lt;
-          </button>
-
-          {Array.from({ length: totalPages }, (_, i) => (
+        {totalPages > 1 && (
+          <div className="flex justify-center items-center gap-4 mt-10">
             <button
-              key={i}
-              onClick={() => setCurrentPage(i + 1)}
+              onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+              disabled={currentPage === 1}
               className={`px-4 py-2 rounded-full ${
-                currentPage === i + 1
-                  ? "bg-pink-100 text-black font-semibold"
-                  : "hover:bg-pink-50"
+                currentPage === 1
+                  ? "text-gray-400"
+                  : "hover:bg-pink-100 text-black"
               }`}
             >
-              {i + 1}
+              &lt;
             </button>
-          ))}
 
-          <button
-            onClick={() =>
-              setCurrentPage((prev) => Math.min(prev + 1, totalPages))
-            }
-            disabled={currentPage === totalPages}
-            className={`px-4 py-2 rounded-full ${
-              currentPage === totalPages
-                ? "text-gray-400"
-                : "hover:bg-pink-100 text-black"
-            }`}
-          >
-            &gt;
-          </button>
-        </div>
-      )}
+            {Array.from({ length: totalPages }, (_, i) => (
+              <button
+                key={i}
+                onClick={() => setCurrentPage(i + 1)}
+                className={`px-4 py-2 rounded-full ${
+                  currentPage === i + 1
+                    ? "bg-pink-100 text-black font-semibold"
+                    : "hover:bg-pink-50"
+                }`}
+              >
+                {i + 1}
+              </button>
+            ))}
+
+            <button
+              onClick={() =>
+                setCurrentPage((prev) => Math.min(prev + 1, totalPages))
+              }
+              disabled={currentPage === totalPages}
+              className={`px-4 py-2 rounded-full ${
+                currentPage === totalPages
+                  ? "text-gray-400"
+                  : "hover:bg-pink-100 text-black"
+              }`}
+            >
+              &gt;
+            </button>
+          </div>
+        )}
+      </div>
     </section>
   );
 };
 
 export default Pinterest;
+
+
 
 
 
