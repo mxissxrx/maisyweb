@@ -17,8 +17,8 @@ const Amazon = () => {
 
   const reversedData = [...data].sort((a, b) => b.id - a.id);
 
-  const categories = ["All", ...new Set(reversedData.map((item) => item.category))];
-  const styles = ["All", ...new Set(reversedData.flatMap((item) => item.style))];
+  const categories = ["All", ...new Set(data.map((item) => item.category))];
+  const styles = ["All", ...new Set(data.flatMap((item) => item.style))];
 
   const filteredData = reversedData.filter((item) => {
     const categoryMatch =

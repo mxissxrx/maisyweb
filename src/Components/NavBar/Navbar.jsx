@@ -6,7 +6,8 @@ import './Navbar.css'
 const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
   const links = [
     { name: "HOME", path: "/" },
-    { name: "PINTEREST POSTS", path: "/pinterest" },
+    { name: "PINTEREST FITS", path: "/pinterest" },
+    //{ name: "GIFT THAT!", path: "/gift-that" },
     { name: "AMAZON FINDS", path: "/amazon" },
     { name: "DHGATE FINDS", path: "/dhgate" },
   ]
@@ -38,4 +39,5 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
 }
 
 export default Navbar
+
 

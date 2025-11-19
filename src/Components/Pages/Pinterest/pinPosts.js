@@ -1392,13 +1392,28 @@ export const data = [
     ],
   },{
     id: 48,
-    mainImage: "https://i.pinimg.com/736x/c3/06/de/c306defc933f5909e15d812c1fc98f3d.jpg",
-    alt: "IG: just.danyal",
+    mainImage: "https://i.pinimg.com/736x/db/66/d0/db66d0b915ebfea49a9cfc501a35408b.jpg",
+    alt: "IG: samantharaynerx",
     items: [
       {
-        name: "Set",
-        image: "https://i.pinimg.com/736x/0c/f8/bb/0cf8bb064c69f464bbd1a7134a608d36.jpg",
-        link: "https://www.instagram.com/dreamgirl.society/"
+        name: "Top",
+        image: "https://cdn.shopify.com/s/files/1/0293/9277/files/08-25-23studio3_HY_IM_10-06-33_6_JT51615L_Black_17882_SG.jpg?v=1693515272&width=800&height=1200&crop=center",
+        link: "https://www.fashionnova.com/products/athena-double-lined-bodysuit-black?variant=39269848121468&currency=CAD&utm_source=google&utm_medium=cpc&utm_id=21501284638&utm_campaign=CAN_B_SHOPPING_W_ALL&glid=CjwKCAiAz_DIBhBJEiwAVH2XwP2-mSNpxw3SfI-dyauhomqoyvZ6wxitZ5OrZp0PI26pwl4y5uKG2BoC1fMQAvD_BwE&gad_source=1&gad_campaignid=21501284638&gbraid=0AAAAADmA10RZuI-bAaHz_XrvCexZxF0MW&gclid=CjwKCAiAz_DIBhBJEiwAVH2XwP2-mSNpxw3SfI-dyauhomqoyvZ6wxitZ5OrZp0PI26pwl4y5uKG2BoC1fMQAvD_BwE"
+      },
+      {
+        name: "Bottoms",
+        image: "https://cdn.shopify.com/s/files/1/0293/9277/files/12-16-24_S6_62_P3010PD_Black_P_KJ_IM_14-42-28_78304_SG.jpg?v=1734473309&width=800&height=1200&crop=center",
+        link: "https://www.fashionnova.com/products/all-the-attention-sequin-micro-short-black?recommendationAttributionId=pdp-rec-1"
+      },
+      {
+        name: "Shoes",
+        image: "https://cdn.shopify.com/s/files/1/0293/9277/files/10-14-24_S15_7_NEMESIS_Black_CZ_11-15-415898_SG_ES_a452ad3a-8156-4976-af59-21f344ac7ed8.jpg?v=1753208912&width=800&height=1200&crop=center",
+        link: "https://www.fashionnova.com/products/jace-overlay-boots-black"
+      },
+      {
+        name: "Bag",
+        image: "https://www.oliverjewellery.ca/cdn/shop/files/Chanel-2022-Black-Caviar-Leather-Small-Boy-Bag_3548c9c3.jpg?v=1744264761",
+        link: "https://www.chanel.com/ca-en/fashion/p/A92193Y8333994305/large-boy-chanel-handbag-grained-calfskin-gold-tone-metal/"
       },
     ],
   },{

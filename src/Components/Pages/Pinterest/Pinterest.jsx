@@ -24,7 +24,7 @@ const Pinterest = () => {
   return (
     <section className="bg-white py-16 px-4">
       <h2 className="my-text text-3xl text-center mb-4">
-        PINTEREST POSTS
+        PINTEREST FITS
       </h2>
 
       <div className="flex justify-center mb-10">
