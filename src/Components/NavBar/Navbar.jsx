@@ -7,7 +7,6 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
   const links = [
     { name: "HOME", path: "/" },
     { name: "PINTEREST FITS", path: "/pinterest" },
-    //{ name: "GIFT THAT!", path: "/gift-that" },
     { name: "AMAZON FINDS", path: "/amazon" },
     { name: "DHGATE FINDS", path: "/dhgate" },
   ]

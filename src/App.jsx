@@ -7,7 +7,6 @@ import Home from './Components/Pages/Home'
 import Pinterest from './Components/Pages/Pinterest/Pinterest'
 import Amazon from './Components/Pages/Amazon/Amazon'
 import Dhgate from './Components/Pages/Dhgate/Dhgate'
-//import Gift from './Components/Pages/Gift/Gift'
 
 
 const AppContent = () => {
@@ -16,8 +15,7 @@ const AppContent = () => {
 
   const links = [
     { name: "HOME", path: "/" },
-    { name: "PINTEREST FITS", path: "/pinterest" },
-    //{ name: "GIFT THAT!", path: "/gift-that" }, 
+    { name: "PINTEREST FITS", path: "/pinterest" }, 
     { name: "AMAZON FINDS", path: "/amazon" },
     { name: "DHGATE FINDS", path: "/dhgate" },
   ]

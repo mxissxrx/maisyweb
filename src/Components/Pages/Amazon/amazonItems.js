@@ -45,13 +45,13 @@ export const data = [
   },
   {
     id: 5,
-    src: "https://m.media-amazon.com/images/I/61fnH-dz-yL._AC_SY500_.jpg",
+    src: "https://m.media-amazon.com/images/I/41J4W8RrapL._AC_SY606_.jpg",
     alt: "",
-    category: "Shoes",
-    style: ["Going Out"],
+    category: "Beauty",
+    style: ["Makeup"],
     links: {
-      CA: "https://amzn.to/3Xa1N8y",
-      US: "https://amzn.to/3LsMOUF",
+      CA: "https://amzn.to/4pUBnEv",
+      US: "https://amzn.to/4ojx83S",
     },
   },
   {
@@ -97,13 +97,13 @@ export const data = [
     },
   },{
     id: 10,
-    src: "https://m.media-amazon.com/images/I/41lQdTKLhNL._AC_SY500_.jpg",
+    src: "https://m.media-amazon.com/images/I/81bdAdprK7L._AC_SL1500_.jpg",
     alt: "",
-    category: "Shoes",
-    style: ["Other"],
+    category: "Home Items",
+    style: ["Furniture"],
     links: {
-      CA: "https://amzn.to/47yMNHH",
-      US: "https://amzn.to/49yZ4gm",
+      CA: "https://amzn.to/4rE5OQW",
+      US: "https://amzn.to/4rq9cyG",
     },
   },{
     id: 11,
@@ -289,7 +289,7 @@ export const data = [
     id: 29,
     src: "https://m.media-amazon.com/images/I/51kmipptYmL._AC_SX466_.jpg",
     alt: "",
-    category: "Glasses",
+    category: "Accessories",
     style: ["Other"],
     links: {
       CA: "https://amzn.to/47JzqTT",
@@ -299,7 +299,7 @@ export const data = [
     id: 30,
     src: "https://m.media-amazon.com/images/I/518E5-ZCapL._AC_SX679_.jpg",
     alt: "",
-    category: "Glasses",
+    category: "Accessories",
     style: ["Other"],
     links: {
       CA: "https://amzn.to/43UfdcD",
@@ -839,7 +839,7 @@ export const data = [
     id: 84,
     src: "https://m.media-amazon.com/images/I/51jbh+N1HvL._AC_SX385_.jpg",
     alt: "",
-    category: "Glasses",
+    category: "Accessories",
     style: ["Office Fits"],
     links: {
       CA: "https://amzn.to/4oBLgq0",
@@ -869,7 +869,7 @@ export const data = [
     id: 87,
     src: "https://m.media-amazon.com/images/I/51s6jlANkKL._AC_SX522_.jpg",
     alt: "",
-    category: "Glasses",
+    category: "Accessories",
     style: ["Other"],
     links: {
       CA: "https://amzn.to/43Vmj0t",
@@ -879,7 +879,7 @@ export const data = [
     id: 88,
     src: "https://m.media-amazon.com/images/I/51lEYskmYfL._AC_SX385_.jpg",
     alt: "",
-    category: "Glasses",
+    category: "Accessories",
     style: ["Office Fits"],
     links: {
       CA: "https://amzn.to/3LpAnZZ",
@@ -1206,7 +1206,627 @@ export const data = [
       US: "https://amzn.to/4ouuN72",
     },
   },
-
+  {
+    id: 121,
+    src: "https://m.media-amazon.com/images/I/61qEWjEYbsL._AC_SX679_.jpg",
+    alt: "",
+    category: "Accessories",
+    style: ["Winter Fits"],
+    links: {
+      CA: "https://amzn.to/48t8cRQ",
+      US: "https://amzn.to/49HmUXB",
+    },
+  },{
+    id: 122,
+    src: "https://m.media-amazon.com/images/I/61Id0ebUgZL._AC_SX695_.jpg",
+    alt: "",
+    category: "Shoes",
+    style: ["Fall Fits","Winter Fits"],
+    links: {
+      CA: "https://amzn.to/3MrncIc",
+      US: "https://amzn.to/4842Vkz",
+    },
+  },{
+    id: 123,
+    src: "https://m.media-amazon.com/images/I/71EPMzCY11L._SL1500_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Body Care"],
+    links: {
+      CA: "https://www.sephora.com/ca/en/product/beija-jet-set-P506951?country_switch=ca&skuId=2701357&om_mmc=ppc-GG_20553540193___2701357__9190293_c&gclsrc=aw.ds&gad_source=1&gad_campaignid=20543820645&gbraid=0AAAAADnIXb0M3NqLU-HLxCybONrUGpvr2&gclid=CjwKCAiA55rJBhByEiwAFkY1QLztk7FURpREtl2joNBBWaUb2WaALmMjUjzRepHbg6_ceaJnSTPi5xoCCdoQAvD_BwE",
+      US: "https://amzn.to/43SdtAK",
+    },
+  },{
+    id: 124,
+    src: "https://m.media-amazon.com/images/I/71Y4bJrLv5L._AC_SX679_.jpg",
+    alt: "",
+    category: "Bags",
+    style: ["Makeup"],
+    links: {
+      CA: "https://amzn.to/4rmCK07",
+      US: "https://amzn.to/43QizO6",
+    },
+  },{
+    id: 125,
+    src: "https://m.media-amazon.com/images/I/41wFjTjSIpL._SL1000_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Body Care"],
+    links: {
+      CA: "https://amzn.to/4rnJGdb",
+      US: "https://amzn.to/3M3gckT",
+    },
+  },{
+    id: 126,
+    src: "https://m.media-amazon.com/images/I/81gAqtMl3AL._AC_SX679_.jpg",
+    alt: "",
+    category: "Tech",
+    style: ["Other"],
+    links: {
+      CA: "https://amzn.to/4okKf52",
+      US: "https://amzn.to/4iotxA7",
+    },
+  },{
+    id: 127,
+    src: "https://m.media-amazon.com/images/I/61E31zVNVWL._SX466_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Body Care"],
+    links: {
+      CA: "https://amzn.to/3LZkFVL",
+      US: "https://amzn.to/48aIIbq",
+    },
+  },{
+    id: 128,
+    src: "https://m.media-amazon.com/images/I/61Nry+2DqYL._AC_SY606_.jpg",
+    alt: "",
+    category: "Tops",
+    style: ["Summer Fits"],
+    links: {
+      CA: "https://amzn.to/3KrzZtF",
+      US: "https://amzn.to/4pclFVi",
+    },
+  },{
+    id: 129,
+    src: "https://m.media-amazon.com/images/I/71HF4WY41HL._AC_SX425_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://amzn.to/4rfn7HE",
+      US: "https://amzn.to/3M3higv",
+    },
+  },{
+    id: 130,
+    src: "https://www.sephora.com/productimages/sku/s2876241-main-zoom.jpg?imwidth=630",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://www.sephora.com/ca/en/product/mini-honey-gloss-ceramide-therapy-hydrating-hair-mask-P516530?country_switch=ca&skuId=2876241&om_mmc=ppc-GG_20553537832___2876241__9190293_c&gclsrc=aw.ds&gad_source=1&gad_campaignid=20543819901&gbraid=0AAAAADnIXb3O6M-CHnjXt7l7Ni29qFd8N&gclid=CjwKCAiA55rJBhByEiwAFkY1QB7f0C4mURfLycYfimPHbCRoFg-uZUegK4kY3LGxRBMRhrLNK4ucIBoCDJ0QAvD_BwE",
+      US: "https://amzn.to/4pTPxpp",
+    },
+  },{
+    id: 131,
+    src: "https://m.media-amazon.com/images/I/81oMnG8VumL._AC_SX425_.jpg",
+    alt: "",
+    category: "Home Items",
+    style: ["Decor"],
+    links: {
+      CA: "https://amzn.to/44paZKk",
+      US: "https://amzn.to/4rmEoyP",
+    },
+  },{
+    id: 132,
+    src: "https://m.media-amazon.com/images/I/61rVQ5uTDAL._SL1500_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://amzn.to/4ahEBwZ",
+      US: "https://amzn.to/4876sP2",
+    },
+  },{
+    id: 133,
+    src: "https://m.media-amazon.com/images/I/71DVWpXOqGL._SX466_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Makeup"],
+    links: {
+      CA: "https://amzn.to/4rtiCcM",
+      US: "https://amzn.to/4io4nS8",
+    },
+  },{
+    id: 134,
+    src: "https://m.media-amazon.com/images/I/61ucm6CzLbL._AC_SX425_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Skin Care"],
+    links: {
+      CA: "https://amzn.to/3M9uFLY",
+      US: "https://amzn.to/4iovo83",
+    },
+  },{
+    id: 135,
+    src: "https://m.media-amazon.com/images/I/81atN9dwg9L._AC_SY355_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://amzn.to/48fAyic",
+      US: "https://amzn.to/43S9rbC",
+    },
+  },{
+    id: 136,
+    src: "https://m.media-amazon.com/images/I/61T5foIh95L._AC_SX425_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://amzn.to/4oDQdy9",
+      US: "https://amzn.to/48iVMM3",
+    },
+  },{
+    id: 137,
+    src: "https://www.sephora.com/productimages/sku/s2806743-main-zoom.jpg?imwidth=630",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://www.sephora.com/ca/en/product/gisou-honey-infused-hair-perfume-wild-rose-P509806?country_switch=ca&skuId=2806743&om_mmc=ppc-GG_23270558353___2806743__9190293_c&gclsrc=aw.ds&gad_source=1&gad_campaignid=23266339439&gbraid=0AAAAADnIXb1WmpN1RhMvDK97G4Ed4_8OQ&gclid=CjwKCAiA55rJBhByEiwAFkY1QDm6IOVsJXqVdT_65_YapNz65Xmf_4GpK2mWvp9eTsrMyKtDDTREvxoCxiAQAvD_BwE",
+      US: "https://amzn.to/4rmVsVn",
+    },
+  },{
+    id: 138,
+    src: "https://m.media-amazon.com/images/I/61BAKA0IutL._AC_SY450_.jpg",
+    alt: "",
+    category: "Bags",
+    style: ["Makeup"],
+    links: {
+      CA: "https://amzn.to/49JZpwW",
+      US: "https://amzn.to/4p2T5Fs",
+    },
+  },{
+    id: 139,
+    src: "https://m.media-amazon.com/images/I/71ldp9+Bn9L._AC_SL1500_.jpg",
+    alt: "",
+    category: "Tech",
+    style: ["Other"],
+    links: {
+      CA: "https://amzn.to/4p8iJsC",
+      US: "https://amzn.to/4p8iJsC",
+    },
+  },{
+    id: 140,
+    src: "https://m.media-amazon.com/images/I/81hcqflE9mL._AC_SY450_.jpg",
+    alt: "",
+    category: "Bags",
+    style: ["Makeup"],
+    links: {
+      CA: "https://amzn.to/3XiimiX",
+      US: "https://amzn.to/4pBUqmJ",
+    },
+  },{
+    id: 141,
+    src: "https://m.media-amazon.com/images/I/61ADCTYGQ5L._AC_SY395_.jpg",
+    alt: "",
+    category: "Jewelry",
+    style: ["Other"],
+    links: {
+      CA: "https://amzn.to/4rploiY",
+      US: "https://amzn.to/4py9RMD",
+    },
+  },{
+    id: 142,
+    src: "https://m.media-amazon.com/images/I/51xMsJgD8IL._AC_SX679_.jpg",
+    alt: "",
+    category: "Jewelry",
+    style: ["Other"],
+    links: {
+      CA: "https://amzn.to/3JWhZrm",
+      US: "https://amzn.to/3M1Eeg5",
+    },
+  },{
+    id: 143,
+    src: "https://m.media-amazon.com/images/I/61muEmpjdfL._AC_SX679_.jpg",
+    alt: "",
+    category: "Bags",
+    style: ["Other"],
+    links: {
+      CA: "https://amzn.to/483b6O6",
+      US: "https://amzn.to/4pDSHgM",
+    },
+  },{
+    id: 144,
+    src: "https://m.media-amazon.com/images/I/61gbetXB-lL._AC_SY500_.jpg",
+    alt: "",
+    category: "Shoes",
+    style: ["Winter Fits","Fall Fits"],
+    links: {
+      CA: "https://amzn.to/4rniZ8H",
+      US: "https://amzn.to/48B33Iq",
+    },
+  },{
+    id: 145,
+    src: "https://m.media-amazon.com/images/I/61i4AUjTgQL._SL1500_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://www.sephora.com/ca/en/product/honey-gloss-hydration-trio-set-P515923?country_switch=ca&lang=en&skuId=2847390&om_mmc=ppc-GG_23265969053___2847390__9190293_c&gclsrc=aw.ds&gad_source=1&gad_campaignid=23266440146&gbraid=0AAAAADnIXb2yxXocYXwLZJYEftCUNc_3B&gclid=CjwKCAiA55rJBhByEiwAFkY1QDP6aR9DIMGsaR-02D-vaWa1YcgLdX1Kli_UnU6rCg5cJEoaLY_AZRoCqTQQAvD_BwE",
+      US: "https://amzn.to/486hbtc",
+    },
+  },{
+    id: 146,
+    src: "https://m.media-amazon.com/images/I/711iXtJ7o7L._SL1500_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://www.sephora.com/ca/en/product/honey-gloss-ceramide-therapy-hydrating-shampoo-P518838?country_switch=ca&lang=en&skuId=2905305&om_mmc=ppc-GG_20543817093___2905305__9190293_c&gclsrc=aw.ds&gad_source=1&gad_campaignid=20543819739&gbraid=0AAAAADnIXb3xNb53XdhdQZ7GrKqrA5rix&gclid=CjwKCAiA55rJBhByEiwAFkY1QE5od4yiRMKzjHL6q6lYfczBnlXCDOAXwOO0U50fTcLMeTJlCAq_qRoCOJEQAvD_BwE",
+      US: "https://amzn.to/49KhxXG",
+    },
+  },{
+    id: 147,
+    src: "https://m.media-amazon.com/images/I/61CcxdVe39L._SL1500_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Makeup"],
+    links: {
+      CA: "https://amzn.to/49K05Cu",
+      US: "https://amzn.to/49K05Cu",
+    },
+  },{
+    id: 148,
+    src: "https://m.media-amazon.com/images/I/612N80e-4QL._SL1500_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://amzn.to/3KsY57k",
+      US: "https://amzn.to/3KsY57k",
+    },
+  },{
+    id: 149,
+    src: "https://m.media-amazon.com/images/I/51elaN0DrRL._SL1500_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Makeup"],
+    links: {
+      CA: "https://amzn.to/43QY8R8",
+      US: "https://amzn.to/43QY8R8",
+    },
+  },{
+    id: 150,
+    src: "https://m.media-amazon.com/images/I/51mseSiOUfL._SL1500_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Makeup"],
+    links: {
+      CA: "https://amzn.to/485MEvx",
+      US: "https://amzn.to/485MEvx",
+    },
+  },{
+    id: 151,
+    src: "https://m.media-amazon.com/images/I/71HL2yLNKdL._AC_SX425_.jpg",
+    alt: "",
+    category: "Jewelry",
+    style: ["Other"],
+    links: {
+      CA: "https://amzn.to/4adVVTx",
+      US: "https://amzn.to/483bLz4",
+    },
+  },{
+    id: 152,
+    src: "https://m.media-amazon.com/images/I/31dYojQ7nRL._AC_SX425_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://amzn.to/4iodJ0l",
+      US: "https://amzn.to/3M1C3sY",
+    },
+  },{
+    id: 153,
+    src: "https://m.media-amazon.com/images/I/81mNloP4u-L._AC_SX425_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://amzn.to/486hOTA",
+      US: "https://amzn.to/3XoeZHd",
+    },
+  },{
+    id: 154,
+    src: "https://m.media-amazon.com/images/I/71znoMLbEsL._SL1500_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://amzn.to/43W2SF0",
+      US: "https://amzn.to/4iql9Am",
+    },
+  },{
+    id: 155,
+    src: "https://m.media-amazon.com/images/I/71kWYjmu4fL._AC_SX425_.jpg",
+    alt: "",
+    category: "Home Items",
+    style: ["Decor"],
+    links: {
+      CA: "https://amzn.to/484R4CR",
+      US: "https://amzn.to/4pA1gcb",
+    },
+  },{
+    id: 156,
+    src: "https://m.media-amazon.com/images/I/51aHzoVZV0L._AC_SX425_.jpg",
+    alt: "",
+    category: "Jewelry",
+    style: ["Other"],
+    links: {
+      CA: "https://amzn.to/4rmaFG2",
+      US: "https://amzn.to/4ptNwQi",
+    },
+  },{
+    id: 157,
+    src: "https://m.media-amazon.com/images/I/710mUEtYzlL._AC_SX425_.jpg",
+    alt: "",
+    category: "Jewelry",
+    style: ["Other"],
+    links: {
+      CA: "https://amzn.to/4oo68QV",
+      US: "https://amzn.to/3KdnJNq",
+    },
+  },{
+    id: 158,
+    src: "https://m.media-amazon.com/images/I/71bhhmijHRL._SX466_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://amzn.to/4pzvpII",
+      US: "https://amzn.to/43Wq2et",
+    },
+  },{
+    id: 159,
+    src: "https://m.media-amazon.com/images/I/71DTA8ArMxL._AC_SY355_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://amzn.to/3XlI7ig",
+      US: "https://amzn.to/4rpP6o9",
+    },
+  },{
+    id: 160,
+    src: "https://m.media-amazon.com/images/I/71ial-l+xFL._SX466_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://amzn.to/4ixTddW",
+      US: "https://amzn.to/4rptCrw",
+    },
+  },{
+    id: 161,
+    src: "https://m.media-amazon.com/images/I/81Pyyp7kwRL._SL1500_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://amzn.to/4rouWe5",
+      US: "https://amzn.to/3XhG8eZ",
+    },
+  },{
+    id: 162,
+    src: "https://m.media-amazon.com/images/I/61Ao3FkxWgL._AC_SL1500_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://amzn.to/4ojtcQE",
+      US: "https://amzn.to/4afrhsT",
+    },
+  },{
+    id: 163,
+    src: "https://m.media-amazon.com/images/I/71CrL-1n4SL._AC_SX425_.jpg",
+    alt: "",
+    category: "Home Items",
+    style: ["Furniture"],
+    links: {
+      CA: "https://amzn.to/3Xls300",
+      US: "https://amzn.to/3JYs4UH",
+    },
+  },{
+    id: 164,
+    src: "https://m.media-amazon.com/images/I/71Zuxi3XKYL._AC_SX425_.jpg",
+    alt: "",
+    category: "Home Items",
+    style: ["Furniture"],
+    links: {
+      CA: "https://amzn.to/4oh67Ov",
+      US: "https://amzn.to/4ohca5B",
+    },
+  },{
+    id: 165,
+    src: "https://m.media-amazon.com/images/I/71lTyTayb4L._AC_SX466_.jpg",
+    alt: "",
+    category: "Home Items",
+    style: ["Decor"],
+    links: {
+      CA: "https://amzn.to/3XRfM3x",
+      US: "https://amzn.to/4pvB6az",
+    },
+  },{
+    id: 166,
+    src: "https://m.media-amazon.com/images/I/51TdrEuLa9L._AC_SL1500_.jpg",
+    alt: "",
+    category: "Home Items",
+    style: ["Decor"],
+    links: {
+      CA: "https://amzn.to/3M1LQ25",
+      US: "https://amzn.to/4rov65b",
+    },
+  },{
+    id: 167,
+    src: "https://m.media-amazon.com/images/I/61eHGotpHeL._AC_SX425_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Hair Care"],
+    links: {
+      CA: "https://amzn.to/49DfGnn",
+      US: "https://amzn.to/4pv26qF",
+    },
+  },{
+    id: 168,
+    src: "https://m.media-amazon.com/images/I/61UnQPoyzhL._AC_SL1500_.jpg",
+    alt: "",
+    category: "Home Items",
+    style: ["Furniture"],
+    links: {
+      CA: "https://amzn.to/4ojeM2Q",
+      US: "https://amzn.to/4afrBYD",
+    },
+  },{
+    id: 169,
+    src: "https://m.media-amazon.com/images/I/61w4tGvUxtL._AC_SX425_.jpg",
+    alt: "",
+    category: "Home Items",
+    style: ["Furniture"],
+    links: {
+      CA: "https://amzn.to/43P9JjC",
+      US: "https://amzn.to/4p58sgE",
+    },
+  },{
+    id: 170,
+    src: "https://m.media-amazon.com/images/I/71qaV-rqisL._AC_SY450_.jpg",
+    alt: "",
+    category: "Home Items",
+    style: ["Furniture"],
+    links: {
+      CA: "https://amzn.to/3M21pH6",
+      US: "https://amzn.to/4pybPwv",
+    },
+  },{
+    id: 171,
+    src: "https://m.media-amazon.com/images/I/811vGAvVS8L._AC_SX425_.jpg",
+    alt: "",
+    category: "Home Items",
+    style: ["Decor"],
+    links: {
+      CA: "https://amzn.to/3LWGKnX",
+      US: "https://amzn.to/4p8g6qO",
+    },
+  },{
+    id: 172,
+    src: "https://m.media-amazon.com/images/I/51wUNJPN7IL._AC_SL1500_.jpg",
+    alt: "",
+    category: "Accessories",
+    style: ["Other"],
+    links: {
+      CA: "https://amzn.to/4rEbp9U",
+      US: "https://amzn.to/4rqeUk6",
+    },
+  },{
+    id: 173,
+    src: "https://m.media-amazon.com/images/I/512Bj+eqStL._AC_SL1500_.jpg",
+    alt: "",
+    category: "Accessories",
+    style: ["Other"],
+    links: {
+      CA: "https://amzn.to/485jnB1",
+      US: "https://amzn.to/48fprap",
+    },
+  },{
+    id: 174,
+    src: "https://m.media-amazon.com/images/I/51yX2s-X29L._AC_SL1500_.jpg",
+    alt: "",
+    category: "Accessories",
+    style: ["Other"],
+    links: {
+      CA: "https://amzn.to/4afFR3E",
+      US: "https://amzn.to/4afFR3E",
+    },
+  },{
+    id: 175,
+    src: "https://m.media-amazon.com/images/I/61An0jiJFvL._SL1500_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Skin Care"],
+    links: {
+      CA: "https://amzn.to/3Ksr37l",
+      US: "https://amzn.to/48kznOj",
+    },
+  },{
+    id: 176,
+    src: "https://m.media-amazon.com/images/I/61oPB+Ed2ZL._SL1500_.jpg",
+    alt: "",
+    category: "Beauty",
+    style: ["Skin Care"],
+    links: {
+      CA: "https://amzn.to/4p8xb3V",
+      US: "https://amzn.to/48bztaY",
+    },
+  },{
+    id: 177,
+    src: "https://m.media-amazon.com/images/I/71MxZfG6BaL._AC_SL1500_.jpg",
+    alt: "",
+    category: "Home Items",
+    style: ["Decor"],
+    links: {
+      CA: "https://amzn.to/4rml7gK",
+      US: "https://amzn.to/4rufFc2",
+    },
+  },{
+    id: 178,
+    src: "https://m.media-amazon.com/images/I/71G4vQYS6IL._AC_SL1500_.jpg",
+    alt: "",
+    category: "Home Items",
+    style: ["Decor"],
+    links: {
+      CA: "https://amzn.to/486silU",
+      US: "https://amzn.to/4pzFNjG",
+    },
+  },{
+    id: 179,
+    src: "https://m.media-amazon.com/images/I/81qKUSANnHL._AC_SL1500_.jpg",
+    alt: "",
+    category: "Home Items",
+    style: ["Decor"],
+    links: {
+      CA: "https://amzn.to/4p6LMgc",
+      US: "https://amzn.to/4pf6FWv",
+    },
+  },{
+    id: 180,
+    src: "https://m.media-amazon.com/images/I/81FqA9daRlL._AC_SL1500_.jpg",
+    alt: "",
+    category: "Home Items",
+    style: ["Decor"],
+    links: {
+      CA: "https://amzn.to/4pokO3X",
+      US: "https://amzn.to/49EGrYA",
+    },
+  },{
+    id: 181,
+    src: "https://m.media-amazon.com/images/I/61EU0vMqbFL._AC_SY535_.jpg",
+    alt: "",
+    category: "Jewelry",
+    style: ["Other"],
+    links: {
+      CA: "https://amzn.to/4ipwK2l",
+      US: "https://amzn.to/4rGMlz9",
+    },
+  },{
+    id: 182,
+    src: "https://m.media-amazon.com/images/I/71R62rCfzwL._AC_SX535_.jpg",
+    alt: "",
+    category: "Jewelry",
+    style: ["Other"],
+    links: {
+      CA: "https://amzn.to/3Kt9pjQ",
+      US: "https://amzn.to/4oeEF3T",
+    },
+  },
 ];
 
 

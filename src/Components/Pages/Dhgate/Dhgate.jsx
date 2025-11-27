@@ -94,9 +94,9 @@ const Dhgate = () => {
                 <button
                   key={category}
                   onClick={() => handleFilterChange("category", category)}
-                  className={`px-4 py-2 rounded-full text-sm font-medium transition ${
+                  className={`px-4 py-2 rounded-full text-sm transition ${
                     selectedCategory === category
-                      ? "bg-[#FCE9FC] text-black"
+                      ? "bg-[#FCE9FC] text-black font-medium"
                       : "bg-gray-100 text-black hover:bg-gray-200"
                   }`}
                 >
